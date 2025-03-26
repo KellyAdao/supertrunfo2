@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 // Estrutura para armazenar os dados da carta
 typedef struct {
@@ -67,6 +68,8 @@ int main() {
 
     // Comparar os países em todos os atributos
     comparar_cartas(carta1, carta2);
+
+    system("pause");
 
     return 0;
 }
