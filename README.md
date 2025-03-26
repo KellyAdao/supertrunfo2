@@ -80,13 +80,6 @@ Brasil: 25.00 vs França: 122.00
 Resultado: Brasil venceu!
 ```
 
-## Estrutura do projeto
-```
-📂 super-trunfo
- ├── cartas.c  # Código-fonte principal
- ├── README.md # Documentação do projeto
-```
-
 ## Tecnologias utilizadas
 - Linguagem C
 - Compilador GCC
