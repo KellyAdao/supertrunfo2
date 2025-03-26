@@ -12,11 +12,7 @@ Este projeto é um jogo simples de Super Trunfo, onde dois países são comparad
 ## Como compilar e executar
 
 ### **Compilar o código**
-Caso esteja utilizando **GCC**, execute o seguinte comando no terminal:
-
-```sh
-cd "local da pasta"
-```
+Caso esteja utilizando **GCC**, execute o seguinte comando no terminal após o comando cd com o local da pasta:
 
 ```sh
 gcc cartas.c -o cartas.exe
