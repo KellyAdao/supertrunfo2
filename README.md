@@ -1,44 +1,63 @@
-# Super Trunfo - Comparador de Países
+# 🃏 Super Trunfo - Comparador de Países
 
-Este projeto é um jogo simples de Super Trunfo, onde dois países são comparados com base em diversos atributos, como população, área, PIB e número de pontos turísticos.
+Este projeto é um jogo simples de **Super Trunfo** desenvolvido em **C**, onde dois países são comparados automaticamente com base em diversos atributos, como população, área, PIB e número de pontos turísticos.
 
-## Funcionalidades
-- Permite a entrada dos dados de dois países.
-- Calcula automaticamente a densidade demográfica.
-- Compara todos os atributos automaticamente.
-- Apresenta os resultados de forma clara, destacando o vencedor para cada categoria.
-- Segue a regra especial onde **densidade demográfica** é o único atributo em que o **menor valor vence**.
+---
 
-## Como compilar e executar
+## ✨ Funcionalidades
 
-### **Compilar o código**
-Caso esteja utilizando **GCC**, execute o seguinte comando no terminal após o comando cd com o local da pasta:
+✅ Entrada dos dados de **dois países**
 
-```sh
+📊 Cálculo automático da **densidade demográfica**
+
+⚔️ Comparação de **todos os atributos** com destaque para o vencedor
+
+🏆 Regras claras:
+- Em todos os atributos, **vence o maior valor**
+- Exceto na **densidade demográfica**, onde o **menor valor vence**
+
+---
+
+## 🧑‍💻 Como compilar e executar
+
+### 🛠️ Compilar com GCC
+
+Navegue até a pasta do projeto e execute:
+
+```bash
 gcc cartas.c -o cartas.exe
 ```
 
-### **Executar o programa**
-```sh
+### ▶️ Executar o programa
+
+```bash
 ./cartas.exe
 ```
 
-## Como jogar
+---
 
-1. Ao iniciar o programa, o usuário deverá fornecer os dados de dois países.
-2. O programa realizará a comparação automaticamente para todos os atributos.
-3. O resultado será exibido no terminal, mostrando qual país venceu em cada categoria.
+## 🕹️ Como jogar
 
-## Atributos disponíveis para comparação
-- **População** (int) → vence o maior valor.
-- **Área (km²)** (float) → vence o maior valor.
-- **PIB (bilhões de dólares)** (float) → vence o maior valor.
-- **Número de pontos turísticos** (int) → vence o maior valor.
-- **Densidade demográfica** (float) → vence o **menor** valor.
+1. O programa solicitará as **informações dos dois países**.
+2. Em seguida, fará a **comparação automática** entre os atributos.
+3. Os **resultados serão exibidos no terminal**, destacando o vencedor de cada categoria.
 
-## Exemplo de entrada e saída
+---
 
-### **Entrada do usuário**
+## 📊 Atributos para comparação
+
+- 👥 **População** (int) → vence o **maior** valor  
+- 🌍 **Área (km²)** (float) → vence o **maior** valor  
+- 💰 **PIB (bilhões de dólares)** (float) → vence o **maior** valor  
+- 🏛️ **Pontos turísticos** (int) → vence o **maior** valor  
+- 📉 **Densidade demográfica** (calculada) → vence o **menor** valor  
+
+---
+
+## 🧾 Exemplo de uso
+
+### Entrada do usuário:
+
 ```
 Informe os dados da carta 1:
 Nome do país: Brasil
@@ -55,7 +74,8 @@ PIB (em bilhões de dólares): 2786700
 Número de pontos turísticos: 120
 ```
 
-### **Saída esperada**
+### Saída esperada:
+
 ```
 ===== Comparação de Atributos =====
 
@@ -80,9 +100,15 @@ Brasil: 25.00 vs França: 122.00
 Resultado: Brasil venceu!
 ```
 
-## Tecnologias utilizadas
-- Linguagem C
-- Compilador GCC
-- Terminal (para entrada e saída de dados)
+---
+
+## 🔧 Tecnologias utilizadas
+
+- 🖥️ Linguagem **C**
+- 🛠️ Compilador **GCC**
+- 💬 Entrada e saída via **terminal**
+
+---
+
 
 
